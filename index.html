@@ -5,51 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Herena Dev</title>
+    <!--CDNS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel ="stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel ="stylesheet" href="styles.css">
+
     
 </head>
 <body>
-    <header class="header">
-    <nav class="navMenu container"> 
-        <div class="palanca" id="palanca">
-        <a class="nav-logo" id="nav-logo">Elena <i class="fas fa-chevron-circle-down"></i></a>     
-    </div>
-        <section class="section wrapper" id= "wrapper">
-         <ui class="nav-list grid" id="nav-list">
-             <li class="item one" id="about">
-                <a href="#about" class="btn"><i class="fas fa-book-open"></i>LOOK!</a>
-                <div class="subMenu">
-                    <a href="#aboutme">About me</a>
-                    <a href="#skills">Skills </a> 
-                </div>
-            </li>
-            <li class="item two" id="proyects">
-                <a href="#proyects" class="btn"><i class="fas fa-laptop-code"></i>PROYECTS</a>
-                <div class="subMenu">
-                    <a href="">Revo witch</a>
-                    <a href="">Chatbot</a>
-                </div>
-            </li>
-            <li class="item three" id="contact">
-                <a href="#contact" class="btn"><i class="fas fa-globe"></i>BE LUCKY</a>
-                <div class="subMenu">
-                    <a href="https://grupovenus.com/" target="_blank"> Astral chart</a>
-                </div>
-            </li>
-            <li class="item four">
-                <a href="#" class="btn"><i class="fas fa-sign-out-alt"></i>OK</a>
-             </li>
-              </ui>
-            </section>
-           
-        </nav> 
-    </header>
+
+        
+      <div class="fixed-action-btn margen">
+                <a class="btn-floating btn-large green accent-3 pulse ">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <ul>
+                  <li><a href= "#skills"  class="btn-floating cyan darken-4"><i class="fas fa-brain"></i> </a></li>
+                  <li><a class="btn-floating cyan accent-1"><i class="fas fa-robot"></i></a></li>
+                  <li><a class="btn-floating teal darken-4 " id="noactivo"><i class="fas fa-sun noactivo"><i class="fas fa-moon active"></i></i></a></li>
+                  <li><a href="#" class="btn-floating teal accent-1"><i class="fas fa-toolbox"></i></a></li>
+                </ul>
+       <!--<i class="fa-solid fa-robot"></i>-->
+              </div>
     <main>
-      <section id = aboutme class= "section aboutme ">
-      <div class="datos__contenedor contenido grid">
-         
-          <div class="social">
+      <section id = aboutme class= " section aboutme">
+      <div class="container">
+         <div class= "row">
+            <div class= "col s3"> </div>
+          <div class= "col s2 social">
               <a href="https://github.com/KillJoy-Herena" target= "_blank" class="link_social">
                 <i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/elena-j%C3%A1uregui-b62b361b5/" target= "_blank" class="link_social">
@@ -57,62 +40,113 @@
                 <a href="https://www.paypal.com/" target= "_blank" class="link_social">
                     <i class="fab fa-btc"></i></a>
            </div> 
-          <div class="imagen_main">
+          <div class="col s3 imagen_main">
         <img src="img/YoMera.jpg" alt="Yo mera" />
       </div>
-      <div class="data__main"> 
+      <div class= "col s4"></div>
+         </div>
+         </div>
+         <div class="container center-align">
+        <div class="data__main"> 
          <h1 class="title">Hi , I am Elena Jáuregui</h1>
-         <h2 class="subtitle"> Software Engineer</h2>
+         <h2 class="subtitle"> am software engineer</h2>
          <p class="description"> I have experience configuring, manipulating and developing software as a professional on site and in practice.</p>
          <p class="description"> I am a participant in constant self-taught study.</p>
 
          <p class="description"> Motivated by my great ability to solve problems creatively, I dose resources and tools, I occupy a communicative and professional work group.</p>
          </div>
+        </div>
         </section>
-        
-        <!--<div class="carrousel">
-          <div class="Caja flex">
-           <div class="elemento">
-               <img class="imagen" alt="Violin">
-              </div>
-              <div class="elemento">
-              <img class="imagen" alt="videojuegos">
-              </div>
-              <div class="elemento">
-                <img class="imagen" alt="cansion">
-              </div>
-              <div class="elemento">
-                <img class="imagen" alt="Bordado">
-              </div>
-          </div>
-          <ul class="selectores flex">
-            <li class="selector"></li>
-            <li class="selector"></li>
-            <li class="selector"></li>
-            <li class="selector"></li>
-          </ul>
-        </div>-->
-       
-
         <section id = "skills" class = "section skills">
-            <h1>My skills</h1>
-         <p>
-            <i class="fab fa-git-alt"></i>
-            <i class="fab fa-html5"></i>
-            <i class="fab fa-css3-alt"></i>
-            <i class="fab fa-js-square"></i>
-            <i class="fab fa-python"></i>
-            <i class="fas fa-terminal"></i>
-            <i class="fab fa-windows"></i>
-            <i class="fas fa-database"></i>
-            <i class="fab fa-linux"></i>
-         </p>
-        </section>
+          <h1>My skills</h1>
+          <div class=" container skills-items">
+            <div class="row">
+           <div class="col s12">
+            <p>
+              <i class="fab fa-git-alt"></i>
+              <i class="fab fa-html5"></i>
+              <i class="fab fa-css3-alt"></i>
+              <i class="fab fa-js-square"></i>
+              <i class="fab fa-python"></i>
+              <i class="fas fa-terminal"></i>
+              <i class="fab fa-windows"></i>
+              <i class="fas fa-database"></i>
+              <i class="fab fa-linux"></i>
+           </p>
+          
+           </div>
+             </div>
         
-       
+      </div>
+    </section>
+     <section class=" section hobbies" id="hobbies">
+       <div class="Title"> <h1>My hobbies</h1></div>
+      
+     
+
+        <div class = "container">
+        <div class="row margen">
+    <div class="col s12">
+        <div class="carousel center-align">
+             <div class="carousel-item">
+              <p class= "descripcion">Practicing the violin is another of my self-taught learning skills, my taste for music starts from classical music even dance to any rhythm.
+              </p>
+               <img class="imagen" id = item1 alt="Violin" src = "img/violin.jpg"> 
+            </div> 
+            <div class="carousel-item">
+               <img class="imagen" id = item2 alt="Videojuegos" src="img/videogame.jpg">
+               <p class= "descripcion">Among my hobbies is the taste for video games, since I was little I knew this taste for mobile console and PC video games.
+            </p>
+            </div>
+            <div class="carousel-item">
+
+              <!-- _____________ REPRODUCTOR ___________-->
+
+
+
+              <div class="reproductor">
+                <img src=img/Album.jpg class="imagenAlbum" id = item3 alt="Albun Cover">     
+                <div class="playerControls">
+
+                  <div class="boton atras"><i class="fas fa-backward"></i></div>
+                  <div class="boton verde" id= "reproduce">
+                    <div class="icono">
+                  <i class="fas fa-play play"></i>
+                  <i class="fas fa-pause enable"></i>
+                  </div></div>
+                  <div class="boton delante"><i class="fas fa-forward"></i></div>
+                  <div class="progress-bar">
+                    <span class="progress"></span>
+                  </div>
+                  </div>
+                   <input type="range" value="20" min="0" class="nivel__audio"/>
+                  <div class="duracion__audio">
+                    <span class="timeCompleto" id="timeCompleto"></span>
+                  <span class="timeActual" id="timeActual"></span>
+                  </div>
+                    <audio controls preload="metadata" class= "music" controls id="audio">
+                    <source src="/img/audio.mp3" type="audio/mpeg" />
+                  </audio>
+                   
+                
+                </div>  
+            </div>
+            <div class="carousel-item">
+                <p class= "descripcion">Embroidery is equally a skill that I practice being my hobbit and a habit to keep creativity exercised.
+                </p>
+               <img class="imagen" id = item4 alt="Bordado" src="img/embroidery.jpg">
+            </div>
+           </div>
+
+    </div>
+        </div>
+        </div>
+      </section>
+      
     </main>
 
-<footer>
+
+    <footer class="pie">
   <p>
 		Created with <i class="fa fa-heart"></i> by
 		<a target="_blank" href="https://www.instagram.com/herena_joy/">Herena Joy</a>
@@ -124,14 +158,12 @@
       <span>Watch on YouTube</span>
   <i class="fab fa-youtube"></i>
  </a>
- <div class="backupBtn"> 
-    
-    <p> <i class="fas fa-angle-double-up"> </i> go back up </p>
-  </div>
 
-</div>
-<!-- Scroll Reveal -->
+</div> 
+           <!-- Scroll Reveal--> 
 <script src="https://unpkg.com/scrollreveal"></script>
+<!-- Materialize-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script src="main.js"></script>
 </body>
 </html>
