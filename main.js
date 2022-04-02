@@ -82,12 +82,21 @@ document.addEventListener('DOMContentLoaded', ()=> {
     })  
 // FUNCIONES Y CONSTANTES PARA EL METODO MODO NOCTURNO
 const noactivo = document.querySelector('.noactivo'),
-      activono = document.querySelector('noactivo'),
-      active= document.querySelector('active'),
-       nombreClss = document.querySelector('modoluz');
+      iconoluna= document.querySelector('.activo');
+
+      var CabioIcono = function() {
+         if(document.body.classList.contains('modoluz')){
+        iconoluna.classList.remove('fa-sun');
+        iconoluna.classList.add('fa-moon');
+      } else {
+        iconoluna.classList.remove('fa-moon');
+        iconoluna.classList.add('fa-sun');
+      };
+      }      
 
    noactivo.addEventListener("click", ()=> {
     document.body.classList.toggle('modoluz');
-
-   })
-   
+     CabioIcono();
+  });
+  
+ 
