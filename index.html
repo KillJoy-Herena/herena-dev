@@ -9,12 +9,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel ="stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel ="stylesheet" href="styles.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coda&family=Electrolize&family=Monoton&family=Unica+One&display=swap" rel="stylesheet">
     
 </head>
 <body>
-
-        
+  <!-- boton flotante       -->
       <div class="fixed-action-btn margen">
                 <a class="btn-floating btn-large  teal lighten-1 pulse ">
                     <i class="fas fa-bars"></i>
@@ -22,35 +24,36 @@
                 <ul>
                   <li><a href= "#skills"  class="btn-floating  deep-purple accent-4"><i class="fas fa-brain"></i> </a></li>
                   <li><a class="btn-floating  teal lighten-2"><i class="fas fa-robot"></i></a></li>
-                  <li><a class="btn-floating  deep-purple accent-4 noactivo" ><i class="fas fa-sun activo"></i></i></a></li>
+                  <li><a class="btn-floating  deep-purple accent-4 noactivo" ><i class="fas fa-sun activo"></i></a></li>
                   <li><a href="#" class="btn-floating teal  teal lighten-2"><i class="fas fa-toolbox"></i></a></li>
                 </ul>
-       <!--<i class="fa-solid fa-robot"></i>-->
               </div>
     <main>
-      <section id = aboutme class= " section aboutme">
-      <div class="container">
-         <div class= "row">
-            <div class= "col s3"> </div>
-          <div class= "col s2 social">
-              <a href="https://github.com/KillJoy-Herena" target= "_blank" class="link_social neon">
+           
+           <div id="portada" class="row  valign-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1062">
+              <polyline points="0,154 131,0 0,348 269,0 0,562 437,0 
+                0,766 565,14 0,1062 719,0 289,1062 843,0 543,1062 995,0 729,1062 1161,0 947,1062 1307,0 1143,1062 1500,162 1299,1062 1500,830"/>
+              </svg>
+              <div class= "col s2 m2 l3 social center-align">
+                <a href="https://github.com/KillJoy-Herena" target= "_blank" class="link_social neon">
                 <i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/elena-j%C3%A1uregui-b62b361b5/" target= "_blank" class="link_social neon in">
                     <i class="fab fa-linkedin"></i></a>
-                <a href="https://www.paypal.com/" target= "_blank" class="link_social neon btc">
+                    <a href="https://www.paypal.com/" target= "_blank" class="link_social neon btc">
                     <i class="fab fa-btc"></i></a>
-           </div> 
-          <div class="col s3 imagen_main">
-        <img src="img/YoMera.jpg" alt="Yo mera" />
-      </div>
-      <div class= "col s4"></div>
-         </div>
-         </div>
+                  </div>
+                  </div>
+                </div> </main>
+        <!---->
+        <br>
          <div class="container center-align">
         <div class="data__main"> 
-         <h4 class="title neonrosa">Hi , I am Elena Jáuregui</h4>
-         <br>
-         <p class="title neon "> am software engineer</p2>
+         <h4 class="title neonrosa soy">Hi , I'm   Elena   Jáuregui</h4>
+         <section class="intro">
+           <br>
+         <p class="neon "> AM SOFTWARE ENGINEER</p2>
+          <br>
          <p class="neon description"> I have experience configuring, manipulating and developing software as a professional on site and in practice.</p>
          <p class="description neon"> I am a participant in constant self-taught study.</p>
 
@@ -59,32 +62,34 @@
         </div>
         </div>
         </section>
-        <section id = "skills" class = "section skills">
+        <section id ="skills" class = "section skills">
           <h1 class="neonrosa">My skills</h1>
           <br>
-          <div class=" container skills-items">
-            <div class="row">
-           <div class="col s12">
-            <p class="neon">
-              <i class="fab fa-git-alt"></i>
-              <i class="fab fa-html5"></i>
-              <i class="fab fa-css3-alt"></i>
-              <i class="fab fa-js-square"></i>
-              <i class="fab fa-python"></i>
-              <i class="fas fa-terminal"></i>
-              <i class="fab fa-windows"></i>
-              <i class="fas fa-database"></i>
-              <i class="fab fa-linux"></i>
-              <i class="fab fa-php"></i>
-           </p>
+          <div class="container skills-items">
+            <div class="row valign-wrapper">
+           <div class="col neon s12 m12 l12 center-align">
           
+              
+              <div class="skillsItem col s4 m6 l3"><i class="fab fa-git-alt"></i><div class="describe ">Git bash/Repository</div></div>
+              <div class="skillsItem col s4 m6 l3"><i class="fab fa-html5"></i><div class="describe">Elements in Html</div></div>
+              <div class="skillsItem col s4 m6 l3"><i class="fab fa-css3-alt"></i><div class="describe">Styles with css</div></div>
+              <div class="skillsItem col s4 m6 l3"><i class="fab fa-js-square"></i><div class="describe">Vanilla javascript</div></div>
+              <div class="skillsItem col s4 m6 l3"><i class="fab fa-python"></i><div class="describe"> Python & pipenv</div></div>
+              <div class="skillsItem col s4 m6 l3"><i class="fas fa-terminal"></i><div class="describe">Windows/Unix bash</div></div>
+              <div class="skillsItem col s4 m6 l3"><i class="fab fa-windows"></i><div class="describe">Framework Dotnet</div></div>
+              <div class="skillsItem col s4 m6 l3"><i class="fas fa-database"></i><div class="describe"> MariaDB/MongoDB</div></div>
+              <div class="skillsItem col s4 m6 l3"><i class="fab fa-linux"></i><div class="describe">Shell/Distros linux</div></div>
+              <div class="skillsItem col s4 m6 l3"><i class="fab fa-php"></i><div class="describe">PhpMyAdmi & Laravel </div></div>
+              <div class="skillsItem col s4 m6 l3"><i class="fab fa-react"></i><div class="describe">Components & MVC</div></div>
+              <div class="skillsItem col s4 m6 l3"><i class="fab fa-node"></i><div class="describe">Service & apps</div></div>
+    
            </div>
              </div>
         
       </div>
     </section>
      <section class=" section hobbies" id="hobbies">
-       <div class="Title"> <h1 class="neonrosa">My hobbies</h1></div>
+       <div class="Title"> <h1 class="neonrosa title">My hobbies</h1></div>
       
      
 
@@ -146,7 +151,7 @@
         </div>
       </section>
       
-    </main>
+    
 
 
     <footer class="pie">

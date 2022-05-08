@@ -1,5 +1,5 @@
  //Aqui codigo para el efecto del scroll (scrollReval)
-  ScrollReveal().reveal('.aboutme');
+  ScrollReveal().reveal('.intro');
   ScrollReveal().reveal('.skills', { delay: 500 });
   ScrollReveal().reveal('.hobbies', { delay: 500 });
 
