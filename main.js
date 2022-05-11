@@ -1,15 +1,13 @@
- //Aqui codigo para el efecto del scroll (scrollReval)
-  ScrollReveal().reveal('.intro');
-  ScrollReveal().reveal('.skills', { delay: 500 });
-  ScrollReveal().reveal('.hobbies', { delay: 500 });
-
-
- //metodo inicacion materialize boton fijo
- document.addEventListener('DOMContentLoaded', function() {
+  document.addEventListener('DOMContentLoaded', function() {
    var elems = document.querySelectorAll('.fixed-action-btn');
    var instances = M.FloatingActionButton.init(elems,{
       
    });
+});
+
+window.addEventListener('scroll', () => {
+  const header = document.getElementById('header');
+  header.style.opacity = "1" - window.pageYOffset / 650;
 });
 // iniciacion materialize carousel
 document.addEventListener('DOMContentLoaded', ()=> {
