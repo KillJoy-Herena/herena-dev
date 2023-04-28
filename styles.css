@@ -30,7 +30,7 @@ header{
   position: fixed;
   left: 0;
 
-  background-image: url(img/wall.jpg);
+  background-image: url(img/bricks.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -103,7 +103,7 @@ img{
   max-width: 430px;
   height: 330px;
   min-width: 220;
-  background-image: url(img/me2.jpg);
+  background-image: url(img/me.jpg);
   background-size: cover;
   border-radius: 50%;
 }
