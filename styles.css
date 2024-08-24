@@ -74,7 +74,7 @@ img{
   color: #2F4F4F;
   text-shadow:
     0 0 5px #fff,
-    0 0 20px #fff,
+    0 0 20px #ffffff,
   
     0 0 36px #00BFFF;
    
@@ -84,7 +84,7 @@ img{
  .neonrosa{
   color: #FFF0F5;
   text-shadow:
-    0 0 5px #fff,
+    0 0 5px #830b5f,
     0 0 10px #fff,
     0 0 20px #fff,
     0 0 40px #8A2BE2,
@@ -169,7 +169,7 @@ img{
 .description{
   width: 100%;
   border-radius: 10px;
-  font-weight: 500;
+  font-weight: 660;
   text-transform: uppercase;
 }
 main {
@@ -191,7 +191,8 @@ max-width: 1000px;
 .descripcion{
   background-color: rgba(155, 79, 142, 0.5);
   border-radius: 15%;
-  color: #4B0082
+  color: #4B0082;
+  font-weight: 660;
 }
 
 .imagenAlbum{
@@ -261,7 +262,7 @@ max-width: 1000px;
   margin: 0 auto;
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Monoton', cursive;
+  font-family: "Vina Sans", cursive;
 }
 .skills i {
   margin: 0 auto;
@@ -295,6 +296,7 @@ max-width: 1000px;
 .describe{
   position: relative;
   margin: auto;
+  font-weight: 660;
 }
 
  .margen{
