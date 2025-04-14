@@ -36,6 +36,10 @@ header{
   background-attachment: fixed;
   box-shadow: inset 0 0 100px 150px rgba(38,41,47,8);
 }
+li{
+  padding: 0;
+
+}
 .modoluz{
   background-color: var(--body-bg-light);
   transition: 0.5s;
@@ -71,11 +75,11 @@ img{
   }
 }
 .neon {
+  font-size: 1.5rem ;
   color: #2F4F4F;
   text-shadow:
     0 0 5px #fff,
     0 0 20px #ffffff,
-  
     0 0 36px #00BFFF;
    
   
@@ -101,8 +105,8 @@ img{
   }
   div#portada{
   margin-top: 8%;  
-  max-width: 250px;
-  height: 250px;
+  max-width: 300px;
+  height: 300px;
   min-width: 300;
   background-image: url(img/me.jpg);
   background-size: cover;
@@ -266,7 +270,7 @@ max-width: 1000px;
 }
 .skills i {
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px;
   font-size: 50px;
   color:#01DFA5;
 
