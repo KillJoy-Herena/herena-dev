@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
        desactivo = document.querySelector('.enable');
 
    var playpause = function () {
-    audio.volume = 0.3;
+    audio.volume = 0.2;
       if (audio.paused) {
         audio.play();
         activo.style.display = "none";

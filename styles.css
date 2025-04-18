@@ -8,7 +8,7 @@
  /*_____________:::::::::::::  ESTILOS BASE :::::::::::__________________*/
  
 *{    
-    font-family: 'Electrolize', sans-serif;
+    font-family: "Winky Sans", sans-serif;
     list-style: none;
     text-decoration: none; 
   }
@@ -36,6 +36,9 @@ header{
   background-attachment: fixed;
   box-shadow: inset 0 0 100px 150px rgba(38,41,47,8);
 }
+h1{
+  font-family: "Monoton", sans-serif;
+}
 li{
   padding: 0;
 
@@ -52,7 +55,7 @@ img{
 
 }
 .soy {
-  font-size: 2.3rem;
+  font-size: 2rem;
   font-weight: 500;
   animation: titilar-neon 2s  infinite;
   animation-timing-function: ease;
@@ -76,6 +79,7 @@ img{
 }
 .neon {
   font-size: 1.5rem ;
+  font-weight: 500;
   color: #2F4F4F;
   text-shadow:
     0 0 5px #fff,
@@ -131,7 +135,75 @@ img{
     max-height: 250px;
     margin-top: 35%;
 }}
+.cntglitch{
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: Monono;
 
+
+
+}
+.glitch {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+    0.025em 0.04em 0 #fffc00;
+  animation: glitch 725ms infinite;
+}
+.glitch span {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.glitch span:first-child {
+  animation: glitch 500ms infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
+  transform: translate(-0.04em, -0.03em);
+  opacity: 0.75;
+}
+
+.glitch span:last-child {
+  animation: glitch 375ms infinite;
+  clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
+  transform: translate(0.04em, 0.03em);
+  opacity: 0.75;
+}
+
+@keyframes glitch {
+  0% {
+    text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+      0.025em 0.04em 0 #fffc00;
+  }
+  15% {
+    text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+      0.025em 0.04em 0 #fffc00;
+  }
+  16% {
+    text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
+      -0.05em -0.05em 0 #fffc00;
+  }
+  49% {
+    text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
+      -0.05em -0.05em 0 #fffc00;
+  }
+  50% {
+    text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
+      0 -0.04em 0 #fffc00;
+  }
+  99% {
+    text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
+      0 -0.04em 0 #fffc00;
+  }
+  100% {
+    text-shadow: -0.05em 0 0 #00fffc, -0.025em -0.04em 0 #fc00ff,
+      -0.04em -0.025em 0 #fffc00;
+  }
+}
 .figura{
   border-radius: 50%;
 }
@@ -162,7 +234,6 @@ img{
   color:#FFA07A;
 }
 .title{
-  font-family:'Vina Sans', cursive;
   text-transform: uppercase;
 }
 .subtitle{
@@ -189,14 +260,16 @@ max-width: 1000px;
 }
 /*_________________::::::::::::::CARRUOSEL:::::::::_______________________*/
  .carousel{
+  font-family: "Amatic SC", sans-serif;
   text-transform: uppercase;
+  overflow: visible;
   }
   
 .descripcion{
   background-color: rgba(155, 79, 142, 0.5);
   border-radius: 15%;
   color: #4B0082;
-  font-weight: 660;
+  font-weight: 450;
 }
 
 .imagenAlbum{
@@ -240,7 +313,7 @@ max-width: 1000px;
   flex: 1;
 }
 .verde{
-  background-color: #8a2be2;
+  background-color: #552052;
   min-width: 60px;
   min-height: 60px;
   position: relative;
@@ -266,7 +339,7 @@ max-width: 1000px;
   margin: 0 auto;
   text-align: center;
   text-transform: uppercase;
-  font-family: "Vina Sans", cursive;
+
 }
 .skills i {
   margin: 0 auto;
@@ -293,7 +366,6 @@ max-width: 1000px;
   transform: scale(1.3);
   transition: ease-out 0.4s;
   opacity: .8;
-  background-image: linear-gradient(-20deg, #d558c8 0%, #24d292 100%);
   overflow: hidden;
 }
 
@@ -307,7 +379,11 @@ max-width: 1000px;
    margin-bottom: 4rem;
    margin-right: 2.3rem;
  }
+
 /*__________________::::::::::: PIE DE PAGINA:::::::::______________________*/
+.piediv{
+  height: 100px;
+}
 .pie {
     background-color: #222;
     color: #fff;
